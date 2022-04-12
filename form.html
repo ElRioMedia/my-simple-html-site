@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Form</title>
+</head>
+
+<body>
+  <!-- Simple Contact Form -->
+  <form class="" action="index.html" method="post" id="Simple Form 1">
+
+    <label>Name</label>
+    <input type="text"><br>
+    <label>E-Mail Address</label>
+    <input type="text"><br>
+    <!-- Does this text area need to be nested to make it an input field for this form? -->
+    <!-- I think... <textarea> </textarea> is a FORM ATTRIBUTE.
+    RULE - IT CAN BE WRITTEN OUTSIDE THE <form></form>.
+    You just need to reference it using the "id" ATTRIBUTE -->
+    <label>Message</label>
+    <textarea name="name" rows="8" cols="25" id="Simple Form 1"></textarea><br>
+    <!-- No label required for this submit button. Text displayed using the "value" attribute anyway -->
+    <input type="submit" value="Submit"><br>
+    <!-- Ditto for this button. No label required -->
+    <input type="reset" value="Reset"><br>
+    <label>Upload File</label>
+    <input type="file"><br>
+    <!-- These different 'types' create different 'objects' -->
+    <p>FORUM QUESTION Note: I have deleted the for attribute for the <label for=""></label> I'm not sure about his, but I think I don't need it, as the inputs are all nested within the form, and then the only one that I think doesn't have to be
+      nested is referenced with an "id" tag anyway. Why would I reference these labels twice?</p>
+
+  </form>
+
+
+
+
+
+  <!-- First Div ever! In a Form-->
+
+  <!-- <hr> -->
+
+  <!-- <form class="" action="index.html" method="post">
+
+    <div class="form">
+      <label for="">Input 1 - Text Input</label>
+      <input type="text" name="" value="">
+    </div>
+
+    <div class="form">
+      <label for="">Input 2 - Submit Button</label>
+      <input type="submit" name="" value="">
+    </div>
+
+
+    <div class="form">
+      <label for="">Input 3 - Password Field</label>
+      <input type="password" name="" value="">
+    </div>
+
+    <div class="form">
+      <label for="">Input 4 - Checkbox</label>
+      <input type="checkbox" name="" value="">
+    </div>
+
+    <div class="form">
+      <label for="">Input 5 - Upload File</label>
+      <input type="file" name="" value="">
+    </div>
+
+  </form> -->
+
+
+  <form action="mailto:elriomedia@gmail.com?subject=Come on Gary! Act!" method="post" enctype="text/plain">
+
+    <label>E-mail</label>
+    <input type="email">
+    <label for="message">Message</label>
+    <textarea name="emailMessage" rows="8" cols="30" id="message"></textarea>
+    <input type="submit" name="" value="">
+
+  </form>
+
+  <!-- Back to Home Link -->
+  <a href="index.html">Home</a>
+  <!-- End Body -->
+
+</body>
+
+</html>
