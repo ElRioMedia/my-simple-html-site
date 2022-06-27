@@ -1,1 +1,1 @@
-# my-simple-html-site
+# simple-html-personal-site
